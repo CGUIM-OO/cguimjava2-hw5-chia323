@@ -39,7 +39,8 @@
     - 請每個玩家下注 (提示 make_bet())
     - 每個玩家下的注要存在pos_betArray供之後使用
   - private void distribute_cards_to_dealer_and_players()
-    - 發牌給玩家跟莊家，先發兩張打開的牌給玩家，再一張蓋著的牌，以及一張打開的牌給莊家。(提示: setOneRoundCard())
+    - 發牌給玩家跟莊家，先發兩張打開的牌給玩家
+    - 再一張蓋著的牌，以及一張打開的牌給莊家。(提示: setOneRoundCard())
     - 發牌給莊家後，在畫面上印出莊家打開的牌"Dealer's face up card is " (提示: printCard())
   - private void ask_each_player_about_hits()
     - 問每個玩家要不要牌 (提示: hit_me(Table tbl))
@@ -57,8 +58,9 @@
     - 看誰贏，要是莊家贏，把玩家籌碼沒收，印出", Loss "+下注籌碼數+" Chips, the Chips now is: "+玩家最新籌碼數(提示: get_current_chips())
     - 要是莊家輸，則賠玩家與下注籌碼相符之籌碼，印出",Get "+下注籌碼數+" Chips, the Chips now is: "+玩家最新籌碼數(提示: get_current_chips())
     - 不輸不贏，印出",chips have no change! The Chips now is: "+玩家最新籌碼數(提示: get_current_chips())
-  - public int[] get_palyers_bet()
-    - 新增一method play()如下，使用方法見HW5.java
+  - public int[] get_players_bet()
+
+- 新增一method play()如下，使用方法見HW5.java
 
 ```
 public void play(){
